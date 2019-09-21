@@ -11,7 +11,7 @@ plugin = { "pretty", "html: test-output", "json:json_output/cucumber.json",
 				"junit:junit_xml/cucumber.xml" }, 
 monochrome = true, strict = true, 
 dryRun = false
-//tags= {"@AgentPhoneNo"}
+//tags= {"@AgentName"}
 				)
 
 public class Test_Runner {

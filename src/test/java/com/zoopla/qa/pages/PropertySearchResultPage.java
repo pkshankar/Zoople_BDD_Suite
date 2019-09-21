@@ -54,7 +54,7 @@ public class PropertySearchResultPage extends TestBase {
 
 	public void selectFifthProperty() {
 
-		//TestUtil.explicitWait(obsElement, 10);
+		TestUtil.explicitWait(obsElement, 10);
 
 		wPropertyPriceList.get(TestData.propertyToSelect).click();
 

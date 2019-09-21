@@ -3,14 +3,10 @@ package com.zoopla.qa.stepDefinitions;
 import java.util.ArrayList;
 import java.util.Collections;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-
 import com.zoopla.qa.TestBase.TestBase;
 import com.zoopla.qa.pages.AgentPage;
 import com.zoopla.qa.pages.PropertyDetailPage;
 import com.zoopla.qa.pages.PropertySearchResultPage;
-import com.zoopla.qa.util.TestUtil;
-
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
@@ -51,7 +47,6 @@ public class Zoopla_Step_Definition extends TestBase {
 		propertyDetailPage = new PropertyDetailPage();
 		agentPage = new AgentPage();
 		propertySearchResultPage.enterCityName();
-		TestUtil.explicitWait(driver.findElement(By.xpath("//img[@class='lazy']")), 15);
 		propertySearchResultPage.selectFifthProperty();
 
 	}

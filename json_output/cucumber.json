@@ -1,0 +1,422 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25958253495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Zoopla price list sort scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-price-list-sort-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1975453954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 368867028,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the city name and clicks enter",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_enters_the_city_name_and_clicks_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3325169722,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sorts the price list in descending order and prints on console",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_sorts_the_arraylist_in_descending_order_and_prints_on_console()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20815497826,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175615978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.enter_City_Name()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Zoopla select fifth property scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-select-fifth-property-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 2024930402,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22368819956,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on fifth property in the list",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_clicks_on_fifth_property_in_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@SelectFifthProp"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22516828490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 291214388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.enter_City_Name()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Zoopla agent logo displayed scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-agent-logo-displayed-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1947085584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14379969464,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user validates that agent logo is displayed",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_validates_that_agent_logo_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@AgentLogoOnPropDetailPage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19124339145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 251658995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.enter_City_Name()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Zoopla agent name displayed scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-agent-name-displayed-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1854629224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14070914378,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user validates that agent name is displayed",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_validates_that_agent_name_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@AgentNameOnPropDetailPage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23608372448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 237820765,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.enter_City_Name()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Zoopla agent phone no displayed scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-agent-phone-no-displayed-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 2295206947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29411967980,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user validates that agent phone no is displayed",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_validates_that_agent_phone_no_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@AgentPhoneNoOnPropDetailPage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22577778281,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 14851294954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.before_Scenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Zoopla agent name validation scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-agent-name-validation-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 4525584444,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9792124667,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user validates that correct agent name is displayed",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_validates_that_correct_agent_name_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@AgentName"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27433125961,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12962489551,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.before_Scenario()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Zoopla agent phone no validation scenario",
+        "description": "",
+        "id": "zoopla-features;zoopla-agent-phone-no-validation-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 2257708177,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Zoopla_Step_Definition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7263853979,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user validates that correct agent phone is displayed",
+            "match": {
+              "location": "Zoopla_Step_Definition.user_validates_that_correct_agent_phone_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@AgentPhoneNo"
+          }
+        ]
+      }
+    ],
+    "name": "Zoopla features",
+    "description": "",
+    "id": "zoopla-features",
+    "keyword": "Feature",
+    "uri": "C:/Users/pkshank/eclipse-workspace/Zoople_BDD_Suite/src/test/java/com/zoopla/qa/features/zoopla.feature"
+  }
+]

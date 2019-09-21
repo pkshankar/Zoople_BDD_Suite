@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="308.666576">
+    <testcase classname="Zoopla features" name="Zoopla price list sort scenario" time="31.627744">
+        <system-out>
+            <![CDATA[Then user enters the city name and clicks enter.............................passed
+Then user sorts the price list in descending order and prints on console....passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla select fifth property scenario" time="45.384864">
+        <system-out>
+            <![CDATA[Then user clicks on fifth property in the list..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla agent logo displayed scenario" time="39.135098">
+        <system-out>
+            <![CDATA[Then user validates that agent logo is displayed............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla agent name displayed scenario" time="35.301542">
+        <system-out>
+            <![CDATA[Then user validates that agent name is displayed............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla agent phone no displayed scenario" time="55.553368">
+        <system-out>
+            <![CDATA[Then user validates that agent phone no is displayed........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla agent name validation scenario" time="51.746782">
+        <system-out>
+            <![CDATA[Then user validates that correct agent name is displayed....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Zoopla features" name="Zoopla agent phone no validation scenario" time="49.917178">
+        <system-out>
+            <![CDATA[Then user validates that correct agent phone is displayed...................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
